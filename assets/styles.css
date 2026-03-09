@@ -888,13 +888,33 @@ section,
 .founder-stage-visual {
   min-height: 240px;
   border-radius: 18px;
-  padding: 22px;
-  display: flex;
-  align-items: flex-end;
-  background:
-    linear-gradient(rgba(10, 18, 31, 0.22), rgba(10, 18, 31, 0.5)),
-    linear-gradient(135deg, #31415d 0%, #1a2436 45%, #9c7643 100%);
+  position: relative;
+  overflow: hidden;
   color: var(--white);
+}
+
+.founder-stage-visual img {
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.founder-stage-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(10, 18, 31, 0.08), rgba(10, 18, 31, 0.58));
+}
+
+.founder-stage-visual-caption {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 22px;
+  z-index: 1;
 }
 
 .founder-stage-visual strong {
@@ -1072,6 +1092,12 @@ section,
   gap: 16px;
   flex-wrap: wrap;
   font-size: 13px;
+}
+
+.footer-credit {
+  color: #f3dfbf;
+  font-weight: 700;
+  letter-spacing: 0.08em;
 }
 
 .practice-focus-grid {
