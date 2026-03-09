@@ -1,0 +1,20 @@
+{
+  "firmName": "Alwi Lawyers",
+  "tagline": "Attorneys & Counsellors at Law",
+  "contact": {
+    "primaryWhatsapp": "+62 813-8791-0251",
+    "secondaryWhatsapp": "+62 813-1088-7942",
+    "phoneDisplay": "+62 813-8791-0251",
+    "email": "alwilawyers@gmail.com"
+  },
+  "office": {
+    "label": "Kantor",
+    "address": "Gading Serpong, Kabupaten Tangerang",
+    "notes": "Alamat lengkap dapat diperbarui sesuai kartu nama atau data terbaru klien."
+  },
+  "hours": {
+    "label": "Jam Operasional",
+    "description": "Senin – Jumat, pukul 09.00 – 17.00 WIB (di luar jam tersebut dapat diatur berdasarkan janji temu)."
+  }
+}
+

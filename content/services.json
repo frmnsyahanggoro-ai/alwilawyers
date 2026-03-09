@@ -1,0 +1,105 @@
+{
+  "practiceAreas": [
+    {
+      "id": "general-representation",
+      "title": "Pendampingan Hukum",
+      "slug": "pendampingan-hukum",
+      "description": "Pendampingan pada tahap klarifikasi, pemeriksaan, penyelidikan, penyidikan, penuntutan, hingga sidang pengadilan.",
+      "highlights": [
+        "Pendampingan di kepolisian, kejaksaan, dan pengadilan",
+        "Menjaga posisi hukum klien sejak tahap awal"
+      ]
+    },
+    {
+      "id": "legal-consultation",
+      "title": "Konsultasi Hukum",
+      "slug": "konsultasi-hukum",
+      "description": "Opini hukum, nasihat, dan strategi atas persoalan perdata maupun pidana.",
+      "highlights": [
+        "Konsultasi lisan dan tertulis",
+        "Analisis awal dan rekomendasi langkah"
+      ]
+    },
+    {
+      "id": "contracts",
+      "title": "Penyusunan dan Review Kontrak",
+      "slug": "kontrak",
+      "description": "Penyusunan, perubahan, dan penelaahan kontrak untuk melindungi hak dan kewajiban para pihak.",
+      "highlights": [
+        "Draft kontrak baru dan revisi dokumen",
+        "Review risiko hukum dan klausul penting"
+      ]
+    },
+    {
+      "id": "business-law",
+      "title": "Hukum Bisnis",
+      "slug": "hukum-bisnis",
+      "description": "Pendampingan pembentukan badan hukum, transaksi bisnis, dan restrukturisasi perusahaan.",
+      "highlights": [
+        "PT, CV, firma, yayasan, dan persekutuan perdata",
+        "Kerja sama usaha, merger, konsolidasi, dan akuisisi"
+      ]
+    },
+    {
+      "id": "family-law",
+      "title": "Hukum Keluarga dan Perkawinan",
+      "slug": "keluarga-perkawinan",
+      "description": "Penanganan perkara keluarga, perkawinan, harta bersama, dan waris.",
+      "highlights": [
+        "Perceraian, hak asuh, dan perjanjian perkawinan",
+        "Penetapan ahli waris, hibah, dan wasiat"
+      ]
+    },
+    {
+      "id": "criminal-law",
+      "title": "Hukum Pidana",
+      "slug": "pidana",
+      "description": "Pendampingan perkara pidana umum dan khusus, termasuk ITE, narkotika, dan TPPU.",
+      "highlights": [
+        "Pidana umum seperti penipuan dan penggelapan",
+        "Pidana khusus sesuai karakter perkara"
+      ]
+    },
+    {
+      "id": "civil-law",
+      "title": "Hukum Perdata",
+      "slug": "perdata",
+      "description": "Penanganan sengketa perjanjian, wanprestasi, dan perbuatan melawan hukum.",
+      "highlights": [
+        "Sengketa perjanjian dan pelaksanaan hak",
+        "Gugatan dan pembelaan kepentingan perdata"
+      ]
+    },
+    {
+      "id": "child-protection",
+      "title": "Perlindungan Anak",
+      "slug": "perlindungan-anak",
+      "description": "Pendampingan hukum bagi anak sebagai korban maupun pelaku tindak pidana.",
+      "highlights": [
+        "Pendampingan sensitif terhadap kepentingan anak",
+        "Koordinasi sesuai ketentuan perlindungan anak"
+      ]
+    },
+    {
+      "id": "employment-law",
+      "title": "Ketenagakerjaan",
+      "slug": "ketenagakerjaan",
+      "description": "Penyelesaian perselisihan hubungan industrial antara pekerja dan perusahaan.",
+      "highlights": [
+        "Perundingan bipartit dan mediasi",
+        "Pendampingan di forum hubungan industrial"
+      ]
+    },
+    {
+      "id": "agrarian-law",
+      "title": "Agraria dan Pertanahan",
+      "slug": "agraria-pertanahan",
+      "description": "Pendampingan sengketa pertanahan dan hak atas tanah.",
+      "highlights": [
+        "Sengketa tanah dan hak atas tanah",
+        "Dokumen pertanahan melalui mitra terkait"
+      ]
+    }
+  ]
+}
+

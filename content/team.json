@@ -1,0 +1,30 @@
+{
+  "founder": {
+    "name": "Dwi Almon, S.H.",
+    "title": "Founder & Managing Partner",
+    "photo": "assets/founder-alwi.png",
+    "summary": "Advokat yang memfokuskan praktik pada perkara perdata, pidana, keluarga, bisnis, dan pertanahan dengan pendekatan yang adaptif dan komunikatif.",
+    "education": [
+      "Sarjana Hukum (S.H.) – fokus pada hukum perdata dan pidana"
+    ],
+    "focusAreas": [
+      "Litigasi perdata dan pidana",
+      "Sengketa keluarga dan harta bersama",
+      "Sengketa agraria dan pertanahan",
+      "Pendampingan hukum bisnis dan kontrak"
+    ],
+    "credentials": [
+      "Advokat berlisensi dan anggota PERADI",
+      "Pengalaman menangani perkara litigasi dan non-litigasi",
+      "Pendekatan komunikasi terbuka dan informatif kepada klien"
+    ]
+  },
+  "coreValues": [
+    "Kejujuran dan integritas dalam setiap penugasan.",
+    "Komunikasi yang jelas dan tidak berbelit-belit.",
+    "Pendekatan yang realistis dan berorientasi pada tujuan klien.",
+    "Komitmen jangka panjang untuk mendampingi klien."
+  ],
+  "notes": "Struktur ini dapat diperluas untuk menambahkan associate, paralegal, dan konsultan eksternal pada fase berikutnya."
+}
+
