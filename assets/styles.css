@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
 
 :root {
   --bg: #0b1220;
@@ -18,7 +18,7 @@
   --shadow-soft: 0 12px 34px rgba(13, 24, 42, 0.08);
   --radius: 20px;
   --radius-sm: 14px;
-  --container: 1140px;
+  --container: 1200px;
 }
 
 * {
@@ -65,7 +65,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   letter-spacing: 0;
 }
 
@@ -153,7 +153,7 @@ p {
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.22),
     0 14px 30px rgba(183, 146, 95, 0.2);
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -290,8 +290,8 @@ p {
 }
 
 .hero-grid {
-  grid-template-columns: minmax(0, 1.25fr) minmax(340px, 0.8fr);
-  align-items: start;
+  grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr);
+  align-items: center;
 }
 
 .eyebrow {
@@ -332,29 +332,29 @@ p {
   max-width: 720px;
 }
 
-.hero-kpis {
+.hero-proof-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   margin-top: 36px;
 }
 
-.hero-kpi {
-  padding: 18px 18px 16px;
+.hero-proof-line {
+  padding: 16px 18px;
   border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.hero-kpi strong {
+.hero-proof-line strong {
   display: block;
-  margin-bottom: 6px;
-  font-size: 24px;
+  margin-bottom: 5px;
   color: #f3dfbf;
+  font-size: 15px;
+  letter-spacing: 0.04em;
 }
 
-.hero-kpi span {
-  color: rgba(255, 255, 255, 0.74);
+.hero-proof-line span {
+  color: rgba(255, 255, 255, 0.76);
   font-size: 14px;
 }
 
@@ -364,66 +364,9 @@ p {
   box-shadow: var(--shadow);
 }
 
-.hero-card {
-  padding: 30px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(14px);
-  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
-}
-
-.hero-card + .hero-card {
-  margin-top: 18px;
-}
-
-.hero-card h3 {
-  font-size: 34px;
-  margin-bottom: 10px;
-}
-
-.hero-card p {
-  margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 15px;
-}
-
-.hero-card-label {
-  display: inline-block;
-  margin-bottom: 14px;
-  font-size: 12px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #f3dfbf;
-}
-
 .hero-panel {
   display: grid;
-  gap: 18px;
-}
-
-.hero-proof {
-  display: grid;
-  gap: 12px;
-  margin-top: 18px;
-}
-
-.hero-proof-item {
-  padding: 14px 16px;
-  border-radius: var(--radius-sm);
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.hero-proof-item strong {
-  display: block;
-  margin-bottom: 4px;
-  font-size: 16px;
-  color: var(--white);
-}
-
-.hero-proof-item span {
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 14px;
+  gap: 20px;
 }
 
 .contact-quick {
@@ -502,7 +445,7 @@ p {
 
 section,
 .page-section {
-  padding: 72px 0;
+  padding: 96px 0;
 }
 
 .section-title {
@@ -735,8 +678,8 @@ section,
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  min-height: 54px;
-  padding: 0 18px;
+  min-height: 50px;
+  padding: 0 16px;
   border-radius: 999px;
   background: #0f1727;
   color: var(--white);
@@ -767,9 +710,9 @@ section,
 }
 
 .floating-cta-badge {
-  min-width: 42px;
-  height: 42px;
-  padding: 0 10px;
+  min-width: 38px;
+  height: 38px;
+  padding: 0 8px;
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
@@ -899,9 +842,9 @@ section,
 }
 
 .founder-stage {
-  padding: 22px;
+  padding: 24px;
   border-radius: var(--radius);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
 }
@@ -972,6 +915,39 @@ section,
 .founder-stage-meta span {
   color: rgba(255, 255, 255, 0.7);
   font-size: 13px;
+}
+
+.founder-stage-list {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.founder-stage-list li {
+  padding-left: 20px;
+  position: relative;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 14px;
+}
+
+.founder-stage-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #f3dfbf;
+}
+
+.founder-stage-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .office-card {
@@ -1095,6 +1071,10 @@ section,
   margin-bottom: 10px;
 }
 
+.footer-contact-list a {
+  color: rgba(255, 255, 255, 0.84);
+}
+
 .footer-links {
   display: grid;
   gap: 10px;
@@ -1163,12 +1143,32 @@ section,
   .process-grid,
   .footer-grid,
   .mini-grid,
-  .practice-focus-grid {
+  .practice-focus-grid,
+  .founder-stage-meta {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 760px) {
+  .topbar {
+    display: none;
+  }
+
+  .brand-mark {
+    width: 42px;
+    height: 42px;
+    border-radius: 14px;
+    font-size: 18px;
+  }
+
+  .brand strong {
+    font-size: 20px;
+  }
+
+  .brand-copy span {
+    font-size: 10px;
+  }
+
   .nav-toggle {
     display: inline-flex;
   }
@@ -1195,8 +1195,8 @@ section,
   .page-hero,
   section,
   .page-section {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
   .hero-grid,
@@ -1208,7 +1208,7 @@ section,
   .gallery-grid,
   .contact-grid,
   .steps-grid,
-  .hero-kpis,
+  .hero-proof-list,
   .trust-band,
   .process-grid,
   .mini-grid,
@@ -1228,6 +1228,10 @@ section,
     width: 100%;
   }
 
+  .founder-stage-actions {
+    flex-direction: column;
+  }
+
   .main-nav a.active::after {
     display: none;
   }
@@ -1237,5 +1241,6 @@ section,
     right: 16px;
     bottom: 16px;
     justify-content: center;
+    min-height: 48px;
   }
 }
