@@ -719,9 +719,12 @@ section,
   justify-content: center;
   background: var(--accent);
   color: var(--white);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+}
+
+.floating-cta-badge svg {
+  width: 20px;
+  height: 20px;
+  display: block;
 }
 
 .footer-inner {
