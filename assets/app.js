@@ -6,13 +6,18 @@ if (navToggle && mainNav) {
     const isOpen = mainNav.classList.toggle("is-open");
     navToggle.setAttribute("aria-expanded", String(isOpen));
   });
+
+  mainNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      mainNav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    });
+  });
 }
 
-const yearTarget = document.querySelector("[data-year]");
-
-if (yearTarget) {
+document.querySelectorAll("[data-year]").forEach((yearTarget) => {
   yearTarget.textContent = new Date().getFullYear();
-}
+});
 
 if (!document.querySelector("[data-floating-cta]")) {
   const floatingCta = document.createElement("a");
@@ -20,7 +25,12 @@ if (!document.querySelector("[data-floating-cta]")) {
   floatingCta.className = "floating-cta";
   floatingCta.setAttribute("data-floating-cta", "true");
   floatingCta.setAttribute("aria-label", "Konsultasi via WhatsApp");
-  floatingCta.innerHTML =
-    '<span class="floating-cta-badge">W</span><span><span>Konsultasi Cepat</span><strong>WhatsApp Kami</strong></span>';
+  floatingCta.innerHTML = `
+    <span class="floating-cta-badge" aria-hidden="true">WA</span>
+    <span class="floating-cta-copy">
+      <span class="floating-cta-label">Konsultasi Cepat</span>
+      <strong class="floating-cta-title">WhatsApp Kami</strong>
+    </span>
+  `;
   document.body.appendChild(floatingCta);
 }
