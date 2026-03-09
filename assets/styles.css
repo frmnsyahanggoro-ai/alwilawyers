@@ -36,6 +36,7 @@ body {
   background: var(--surface);
   line-height: 1.72;
   letter-spacing: -0.01em;
+  padding-bottom: 92px;
 }
 
 a {
@@ -876,6 +877,62 @@ section,
   font-size: 14px;
 }
 
+.founder-stage {
+  padding: 22px;
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+}
+
+.founder-stage-visual {
+  min-height: 240px;
+  border-radius: 18px;
+  padding: 22px;
+  display: flex;
+  align-items: flex-end;
+  background:
+    linear-gradient(rgba(10, 18, 31, 0.22), rgba(10, 18, 31, 0.5)),
+    linear-gradient(135deg, #31415d 0%, #1a2436 45%, #9c7643 100%);
+  color: var(--white);
+}
+
+.founder-stage-visual strong {
+  display: block;
+  font-size: 28px;
+}
+
+.founder-stage-visual span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+}
+
+.founder-stage-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.founder-stage-meta div {
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.founder-stage-meta strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--white);
+  font-size: 15px;
+}
+
+.founder-stage-meta span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+}
+
 .office-card {
   padding: 24px;
   border-radius: var(--radius);
@@ -1110,7 +1167,8 @@ section,
   .mini-grid,
   .footer-grid,
   .practice-focus-grid,
-  .footer-inner {
+  .footer-inner,
+  .founder-stage-meta {
     grid-template-columns: 1fr;
   }
 
