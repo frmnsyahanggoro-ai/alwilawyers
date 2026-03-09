@@ -1,0 +1,23 @@
+---
+description: Permanent quality standard for rebuilding the Alwi Lawyers website
+alwaysApply: true
+---
+
+# Alwi Lawyers Website Quality Standard
+
+- Treat the old website only as a baseline reference, never as a template to copy.
+- Every page and revision must create a clear quality improvement over the previous website.
+- Favor a modern, credible, premium law-firm presentation over generic template styling.
+- Improve structure, readability, and hierarchy so content is easier to scan and understand.
+- Prioritize fast loading, lightweight assets, and responsive behavior across desktop and mobile.
+- Make navigation intuitive and reduce friction in key user journeys such as learning services and contacting the firm.
+- Strengthen trust signals: clearer positioning, stronger copy, better visual hierarchy, and more professional presentation.
+- If any section still feels ordinary, generic, or only slightly better than the old version, keep improving it.
+- Before finalizing meaningful changes, evaluate whether the result is visibly more polished, professional, and convincing than the baseline.
+
+## Practical Checks
+
+- Ask: "Is this clearly better than the old site?" before considering a section done.
+- Prefer removing weak or filler sections over keeping mediocre content.
+- Keep components consistent across pages so the entire site feels like one mature product.
+- Use placeholders only as temporary scaffolding and make them feel intentional and professional.
