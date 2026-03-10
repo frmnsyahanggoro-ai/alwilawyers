@@ -153,7 +153,7 @@ Untuk saat ini, file ini berfungsi sebagai:
 
 ```json
 {
-  "firmName": "Alwi Lawyers",
+  "firmName": "Al'wi Lawyers",
   "tagline": "Attorneys & Counsellors at Law",
   "contact": {
     "primaryWhatsapp": "+62 …",

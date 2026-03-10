@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 85" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="alwiStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.85)" />
+    </linearGradient>
+  </defs>
+  <g>
+    <text x="0" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="600" fill="#ffffff" letter-spacing="0.03em">Al'wi Lawyers</text>
+    <text x="0" y="50" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="rgba(255,255,255,0.72)" letter-spacing="0.14em">Attorneys &amp; Counsellors at Law</text>
+  </g>
+  <!-- Quill stroke beneath text -->
+  <path d="M5 62 C5 62 70 66 140 63 S275 60 275 65" stroke="url(#alwiStroke)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <circle cx="272" cy="64" r="1.8" fill="rgba(255,255,255,0.55)"/>
+</svg>
